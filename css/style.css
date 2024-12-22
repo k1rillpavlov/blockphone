@@ -1,0 +1,187 @@
+body{
+
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+}
+.popup__settings{
+    padding-top: 40px;
+    width: 520px;
+    margin: auto;
+
+}
+
+.popup__settings__header{
+    width: 330px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+.popup__settings__header__title{
+    width: 400px;
+    height: 28px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+
+    
+}
+.popup__settings__header__button{
+    margin-top: 3px;
+    width: 40px;
+    height: 33px;
+    border: 0px solid white;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.popup__settings__header__button:hover{
+    background: black;
+
+}
+.popup__settings__header__button:hover .popup__settings__header__button__x{
+    color: white;
+}
+.popup__settings__phone{
+    width: 290px;
+    height: 64px;
+    border: 1px solid #F0F8FF;
+    border-radius: 24px;
+    background: #F0F8FF;
+    margin: auto;
+    padding: 20px;
+}
+.popup__settings__phone__number{
+ height: 20px;
+ 
+}
+.popup__settings__phone__button{
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid grey;
+  background: none;
+  border-radius: 5px;
+  height: 30px;
+}
+.popup__settings__phone__button:hover{
+  background: black;
+  color: white;
+}
+
+.popup__settings__phone__title{
+    margin-bottom: 15px;
+}
+
+.popup__settings__cards{
+    margin: auto;
+    width: 330px;
+}
+
+
+
+.popup__settings__card{
+ border: 1px solid #F0F8FF;
+ border-radius: 34px;
+ background: #F0F8FF;
+ margin-top: 16px;
+ padding: 20px;
+ margin-top: 16px;
+padding: 20px;
+}
+.popup__settings__card:last-child{
+    margin-bottom: 20PX;
+}
+.popup__settings__card__list__item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.popup__settings__card__mail{
+    font-weight: 400;
+}
+.popup__settings__card__site{
+    font-weight: 400;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {display:none;}
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  @media(withe < 1024){
+  
+  .popup__settings{
+      width: 363px;
+  }
+  
+  .popup__settings__header{
+      width: 330px;
+      margin-bottom: 32px;
+  
+  }
+  .popup__settings__header__title{
+      width: 282px;
+  }
+  .popup__settings__cards{
+      width: 282px;
+  }
+  
+
+
+}
